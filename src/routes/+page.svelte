@@ -1,2 +1,9 @@
-<h1 class="bg-green-200">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="w-auto min-h-screen flex flex-col items-center justify-center">
+	<h1 class="text-2xl p-2 m-2">This is the homepage.</h1>
+	<div>
+		<button class="btn btn-primary h-2"> </button>
+		<button class="btn btn-primary h-2">
+			<a href="./signup">Sign up</a>
+		</button>
+	</div>
+</div>
